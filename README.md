@@ -4,7 +4,7 @@ Solver for Simple Linear Hyperbolic Equation with constant velocity. The program
 * Lax-Wendroff Scheme
 * MacCormack Scheme
 
-The results have been worked out for the initial condition ```exp(-100(x-0.5)^2)``` with periodic boundary conditions and the results for the three methods compared after a single cycle by evaluating the absolute errors against the initial values. The results have been plotted in Python using ```matplotlib```.
+The results have been worked out using Finite Difference Methods for the initial condition ```exp(-100(x-0.5)^2)``` with periodic boundary conditions and the results for the three methods compared after a single cycle by evaluating the absolute errors against the initial values. The results have been plotted in Python using ```matplotlib```.
 
 The code has three sections, with the variables (Datastruct.cpp) and functions (Functions.cpp) being define in separate files, while the main function (Combined_Schemes.cpp) containing only the functions. The parameters are extracted from ```Read_File.txt```, which can be changed as per requirement.
 
